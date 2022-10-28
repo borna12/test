@@ -1,0 +1,160 @@
+﻿
+/* My Styles*/
+.tekstHit {
+    color: blue;
+    font-weight: bold;
+}
+
+.abecedarijHit {
+    color: brown;
+    font-weight: bold;
+}
+
+.wordHit {
+    color: green;
+    font-weight: bold;
+}
+
+.directHit {
+    color: red;
+    font-weight: bold;
+}
+
+.tekstHit {
+    color: #8b2323;
+    font-weight: bold;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    /*color: #8b2323;*/
+}
+
+a:hover {
+}
+
+a.he:link, a.he:visited {
+    color: darkblue;
+    font-weight: bold;
+}
+
+a.hol:link, a.hol:visited {
+    color: darkslateblue;
+    font-weight: bold;
+}
+
+a.hbl:link, a.hbl:visited, span.hbl {
+    color: darkgoldenrod;
+    font-weight: bold;
+}
+
+a.krl:link, a.krl:visited, span.krl {
+    color: darkorange;
+    font-weight: bold;
+}
+
+a.fl:link, a.fl:visited, span.fl {
+    color: chocolate;
+    font-weight: bold;
+}
+
+a.nl:link, a.nl:visited, span.nl {
+    color: green;
+    font-weight: bold;
+}
+
+a.ml:link, a.ml:visited, span.ml {
+    color: lightseagreen;
+    font-weight: bold;
+}
+
+a.pl:link, a.pl:visited, span.pl {
+    color: dodgerblue !important;
+    font-weight: bold;
+}
+
+a.tl:link, a.tl:visited, span.tl {
+    color: rosybrown;
+    font-weight: bold;
+}
+
+a.ie:link, a.ie:visited, span.ie {
+    color: darkred;
+    font-weight: bold;
+}
+
+a.hte:link, a.hte:visited, span.hte {
+    color: brown;
+    font-weight: bold;
+}
+
+a.fe:link, a.fe:visited, span.fe {
+    color: black;
+    font-weight: bold;
+}
+
+.clanak {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.125em;
+}
+
+/* My Styles*/
+.tekstHit {
+    color: blue;
+    font-weight: bold;
+}
+
+.abecedarijHit {
+    color: brown;
+    font-weight: bold;
+}
+
+.wordHit {
+    color: green;
+    font-weight: bold;
+}
+
+.directHit {
+    color: red;
+    font-weight: bold;
+}
+
+.tekstHit {
+    color: #8b2323;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    /*color: #8b2323;*/
+}
+
+a:hover {
+}
+
+.he, .he:link, a.he:visited {
+    color: darkblue;
+}
+
+.hol, a.hol:link, a.hol:visited {
+    color: darkslateblue;
+}
+
+.hbl, a.hbl:link, a.hbl:visited {
+    color: darkgoldenrod;
+}
+
+.emk, .krl, a.krl:link, a.krl:visited {
+    color: darkorange;
+}
+
+.fl, a.fl:link, a.fl:visited {
+    color: saddlebrown;
+}
+
+.nl, a.nl:link, a.nl:visited {
+    color: darkgreen;
+}
+
+.ie, a.ie:link, a.ie:visited {
+    color: darkred;
+}
