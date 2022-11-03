@@ -93,76 +93,79 @@
 .group:after { content:""; display:table; }
 .group:after { clear:both;}
 .group { zoom:1; /* For IE 6/7 */ }
-/*  GRID OF TWO  */
-.span_2_of_2 {
+/*  GRID OF FIVE  */
+.span_5_of_5 {
 	width: 100%;
 }
-.span_1_of_2 {
-	width: 49.2%;
+.span_4_of_5 {
+	width: 79.68%;
+}
+.span_3_of_5 {
+	width: 59.36%;
+}
+.span_2_of_5 {
+	width: 39.04%;
+}
+.span_1_of_5 {
+	width: 18.72%;
+    text-align: center;
 }
 
-/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
-
+/*  GO FULL WIDTH BELOW 480 PIXELS */
 @media only screen and (max-width: 480px) {
-	.col { 
-		margin: 1% 0 1% 0%;
-	}
-}
-
-@media only screen and (max-width: 480px) {
-	.span_2_of_2, .span_1_of_2 { width: 100%; }
+	.col {  margin: 1% 0 1% 0%; }
+	.span_1_of_5, .span_2_of_5, .span_3_of_5, .span_4_of_5, .span_5_of_5 { width: 100%; }
 }
 
 </style>
 <div class="section group">
-	<div class="col span_1_of_2">
-	    <a href="http://krlezijana.lzmk.hr/" target="_blank"><img src="slike/krleza.jpg" alt="Krležijana" class="img-thumbnail" style="width: 100%;" /></a>
+	<div class="col span_1_of_5">
+	    <a href="http://krlezijana.lzmk.hr/" target="_blank"><img src="slike/krleza.png" alt="Krležijana" class="img-thumbnail"  /><br>Krležijana</a>
 
 	</div>
-	<div class="col span_1_of_2">
-	    <a href="http://hbl.lzmk.hr/" target="_blank"><img src="slike/hbl.jpg" alt="Hrvatski biografski leksikon" class="img-thumbnail" style="width: 100%;"/></a>
+	<div class="col span_1_of_5">
+	    <a href="http://hbl.lzmk.hr/" target="_blank"><img src="slike/hrvatski-bibliografski-leksikon.png" alt="Hrvatski biografski leksikon" class="img-thumbnail" /><br>Hrvatski biografski leksikon</a>
 
 	</div>
+
+	<div class="col span_1_of_5">
+	    <a href="http://hol.lzmk.hr/" target="_blank"><img src="slike/hol.png" alt="Hrvatski obiteljski leksikon" class="img-thumbnail" /><br>Hrvatski obiteljski leksikon</a>
+
+	</div>
+	<div class="col span_1_of_5">
+	    <a href="http://ml.lzmk.hr/" target="_blank"><img src="slike/med.png" alt="Medicinski leksikon" class="img-thumbnail" /><br>Medicinski leksikon</a>
+
+	</div>
+
+	<div class="col span_1_of_5">
+	    <a href="http://pl.lzmk.hr/" target="_blank"><img src="slike/pom.png" alt="Pomorski leksikon" class="img-thumbnail"  /><br>Pomorski leksikon</a>
+
+	</div>
+   
 </div>
-<div class="section group">
-	<div class="col span_1_of_2">
-	    <a href="http://hol.lzmk.hr/" target="_blank"><img src="slike/hol.jpg" alt="Hrvatski obiteljski leksikon" class="img-thumbnail" style="width: 100%;"/></a>
-
-	</div>
-	<div class="col span_1_of_2">
-	    <a href="http://ml.lzmk.hr/" target="_blank"><img src="slike/medicinski.jpg" alt="Medicinski leksikon" class="img-thumbnail" style="width: 100%;"/></a>
-
-	</div></div>
-
     <div class="section group">
-
-	<div class="col span_1_of_2">
-	    <a href="http://pl.lzmk.hr/" target="_blank"><img src="slike/pomorski.jpg" alt="Pomorski leksikon" class="img-thumbnail" style="width: 100%;" /></a>
-
-	</div>
-    <div class="col span_1_of_2">
-        <a href="http://tl.lzmk.hr/" target="_blank"><img src="slike/tehnicki.jpg" alt="Tehnički leksikon" class="img-thumbnail" style="width: 100%;"/></a>
-
-	</div></div>
-    <div class="section group">
-
-	<div class="col span_1_of_2">
-        <a href="http://fl.lzmk.hr/" target="_blank"><img src="slike/filmski_leksikon.jpg" alt="Filmski leksikon" class="img-thumbnail" style="width: 100%;"/></a>
+        <div class="col span_1_of_5">
+            <a href="http://tl.lzmk.hr/" target="_blank"><img src="slike/tl.png" alt="Tehnički leksikon" class="img-thumbnail" /><br>Tehnički leksikon</a>
+    
+        </div>
+	<div class="col span_1_of_5">
+        <a href="http://fl.lzmk.hr/" target="_blank"><img src="slike/FL.png" alt="Filmski leksikon" class="img-thumbnail" /><br>Filmski leksikon</a>
 
 	</div>
-	<div class="col span_1_of_2">
-        <a href="http://filmska.lzmk.hr/" target="_blank"><img src="slike/filmska_enciklopedija.jpg" alt="Filmska ekciklopedija" class="img-thumbnail" style="width: 100%;"/></a>
-
-	</div></div>
-    <div class="section group">
-	<div class="col span_1_of_2">
-        <a href="http://ie.lzmk.hr/" target="_blank"><img src="slike/istarska.jpg" alt="Istarska enciklopedija" class="img-thumbnail" style="width: 100%;"/></a>
+	<div class="col span_1_of_5">
+        <a href="http://filmska.lzmk.hr/" target="_blank"><img src="slike/FE.png" alt="Filmska ekciklopedija" class="img-thumbnail" /><br>Filmska enciklopedija</a>
 
 	</div>
-	<div class="col span_1_of_2">
-        <a href="http://nl.lzmk.hr/" target="_blank"><img src="slike/nogometni.jpg" alt="Nogometni leksikon" class="img-thumbnail" style="width: 100%;"/></a>
+	<div class="col span_1_of_5">
+        <a href="http://ie.lzmk.hr/" target="_blank"><img src="slike/IE.png" alt="Istarska enciklopedija" class="img-thumbnail" /><br>Istarska enciklopedija</a>
 
-	</div></div>
+	</div>
+	<div class="col span_1_of_5">
+        <a href="http://nl.lzmk.hr/" target="_blank"><img src="slike/NL.png" alt="Nogometni leksikon" class="img-thumbnail" /><br>Nogometni leksikon</a>
+
+	</div>
+
+</div>
 
 
 
