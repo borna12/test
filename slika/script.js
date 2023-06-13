@@ -108,7 +108,7 @@ function markerClick(marker) {
   console.log("Click on this marker", marker);
 }
 
-let imageSrc = "karta.png";
+let imageSrc = "2-1.png";
 
 
 let pointsURL ="https://docs.google.com/spreadsheets/d/e/2PACX-1vR2BYSFkf_mpgdaGXTTriyZ3UcMbkMQDV5691rj-xj9YqyBaaxRALEvNqXeHYx7uRb2Le98RvIDv60v/pub?output=csv"
